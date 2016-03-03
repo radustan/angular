@@ -1,4 +1,5 @@
-node_modules/
-bower_components/
-doc/
+ang1/node_modules/
+ang1/dist/
+ang1/bower_components/
+ang1/doc/
 .idea/
