@@ -17,6 +17,7 @@
     "restangular": "1.4.0",
     "jquery": "~2.0.3",
     "bootstrap": "~3.0.0",
-    "highcharts": "^4.2.3"
+    "highcharts": "^4.2.3",
+    "font-awesome": "^4.5.0"
   }
 }
