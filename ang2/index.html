@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Testing angular</title>
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+
 </head>
 <body ng-controller="MainController">
     <header>
         <nav class="navbar navbar-default navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/ang/angular/ang2/#">Angular Routing Example</a>
+                    <a class="navbar-brand" href="/ang/angular/ang2/#">{{title}}</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li ng-repeat="item in menu" ng-class="{ active: isActive('/{{item.name}}')}">
@@ -28,7 +30,7 @@
     </header>
     <div class="container theme-showcase" role="main">
         <div class="jumbotron">
-            <h1>Hello</h1>
+            <h1>{{page}}</h1>
         </div>
 
         <!-- MAIN CONTENT AND INJECTED VIEWS -->

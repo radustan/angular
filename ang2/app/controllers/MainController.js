@@ -1,7 +1,7 @@
 var MainController = angular.module('App1.MainController', [])
     .controller('MainController', function ($scope, $location, callsService) {
-        $scope.name = "Radu";
-
+        $scope.page = "Angular test";
+        $scope.title = 'Testing angular app';
         $scope.isActive = function (viewLocation) {
             return viewLocation === $location.path();
         };

@@ -9,7 +9,6 @@ var hcAreaChart = angular.module('App1.hcAreaChart', [])
                 categories: '='
             },
             link: function (scope, element) {
-                console.log(scope.categories);
                 Highcharts.chart(element[0], {
                     chart: {
                         type: 'area'
